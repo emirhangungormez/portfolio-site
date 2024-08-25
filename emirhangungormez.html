@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Meta Temel Ayarlar -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirhan Güngörmez</title>
+    <meta name="description" content="Emirhan Güngörmez, teknoloji girişimcisi ve bilgisayar mühendisliği öğrencisi. Oyun ve web geliştirme alanında uzman. The Astra şirketinin kurucusu.">
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- SEO Ayarları -->
+    <meta name="robots" content="index, follow"> <!-- Arama motorlarına sayfayı indeksle ve bağlantıları takip et mesajı verir -->
+    <meta name="keywords" content="Emirhan Güngörmez, girişimci, bilgisayar mühendisi, The Astra, oyun geliştirme, web geliştirme, teknoloji girişimi"> <!-- Anahtar kelimeler -->
+
+    <!-- Open Graph (Sosyal Medya Paylaşımı) -->
+    <meta property="og:title" content="Emirhan Güngörmez - Kurucu ve Girişimci">
+    <meta property="og:description" content="Bilgisayar mühendisliği öğrencisi, teknoloji girişimcisi ve The Astra'nın kurucusu.">
+    <meta property="og:url" content="https://www.adastratr.com"> <!-- Sitenizin URL'si -->
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Emirhan Güngörmez - Kurucu ve Girişimci">
+    <meta name="twitter:description" content="Bilgisayar mühendisliği öğrencisi, teknoloji girişimcisi ve The Astra'nın kurucusu.">
+
+    <!-- Favicons -->
+    <link rel="icon" href="../cvs/favicon.ico" type="image/x-icon"> <!-- Favicon (küçük simge) -->
+
+    <!-- Dil Ayarları -->
+    <meta name="language" content="Türkçe">
+    <meta name="author" content="Emirhan Güngörmez">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <style>
+        @font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('fonts/PPNeueMontreal-Regular-Optimized.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'PPNeueMontreal', sans-serif;
+    margin: 0;
+    padding: 60px;
+    background-color: rgb(17 17 19);
+    color: #ffffff;
+}
+
+main {
+    min-width: 300px; /* Sabit genişlik */
+    max-width: 30%;
+}
+
+/* Font Boyutları */
+h1 {
+    font-size: 17px;
+    line-height: 2;
+    margin: 0;
+}
+
+h2 {
+    font-size: 17px;
+    line-height: 2;
+    color: #d0d0d0; /* Gri renk */
+    margin: 0;
+}
+
+h3 {
+    font-size: 15px;
+    line-height: 1;
+    color: #ffffff; /* Gri renk */
+    margin: 0;
+}
+
+p2 {
+    font-size: 13px;
+}
+
+p, a {
+    font-size: 13px;
+    line-height: 1.3; /* Satır arası uzaklık */
+    color: #b9b9b9; /* Gri renk */
+}
+
+.highlighted {
+    color: #ffffff; /* Beyaz renk */
+}
+
+.highlighted a {
+    color: inherit; /* Rengi ebeveyn elemandan devralır (beyaz) */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+}
+
+/* Contact İçeriklerinin Tamamı Beyaz */
+.contact-info li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.contact-info span {
+    margin-right: 8px;
+}
+
+.contact-info a {
+    color: white; /* Beyaz renk */
+    text-decoration: none;
+    border-bottom: 0.5px solid currentColor;
+    padding-bottom: 0px; /* Alt çizgiyi metne yaklaştırmak için padding'i sıfırlıyoruz */
+    line-height: 1; /* Satır yüksekliğini sıkı tutuyoruz */
+    padding-bottom: 1px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #8d8d8d;
+    border-bottom-color: #8d8d8d;
+}
+
+/* Logo ve Yazı Dikeyde Ortalanmış */
+.logo-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 4px;
+    fill: #ffffff; /* SVG'nin varsayılan rengi */
+    transition: fill 0.3s;
+}
+
+.logo:hover {
+    fill: #8d8d8d;
+}
+
+.site-code {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Skills List Styling */
+.skills-list-new {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list-new li {
+    margin: 0;
+}
+
+.skills-list-new span {
+    border: 1px solid #ffffff;
+    border-radius: 20px; /* Daha yuvarlak köşeler */
+    padding: 8px 16px;
+    font-size: 13px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    cursor: default;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    <main class="flex flex-col gap-16 max-w-[600px]">
+        <header class="flex flex-col text-base mb-10">
+            <h1>Emirhan Güngörmez</h1>
+            <p2>Kurucu ve girişimci, bilgisayar mühendisliği ve yönetim bilişim sistemleri öğrencisi.</p2>
+        </header>
+        
+        <section class="flex flex-col gap-3">
+            <h2>Deneyimler</h2>
+        
+            <h3>Kurucu, Ar-Ge Yöneticisi - Ad Astra - Yazılım ve Bilişim Şirketi</h3>
+            <p>Ad Astra, yenilikçi tasarım yaklaşımı ve güçlü teknik becerileriyle her müşteri ihtiyacına özel çözümler üreten, dijital dünyada etkileyici varlıklar/archetypelar oluşturan bir şirkettir.</p>
+            <br>
+        
+            <h3>Kurucu, Oyun Geliştirici - Lodom Creations - Oyun Stüdyosu</h3>
+            <p>Anticverse/Digiage'de Bilişim Vadisi'nde bir ön-kuluçka ekibi olarak bir stüdyo ve şirket kurmaya yönelik çalışmalar organize eder. Şu anda Bursa Ar-Ge Merkezi'nde oyun geliştirme üzerine profesyonel eğitim kampları düzenlemektedir.</p>
+            <br>
+        
+            <h3>Javascript Geliştirici - Motto Animate - Animasyon Stüdyosu</h3>
+            <p>Adobe Animate üzerinde Javascript ile etkileşimli çocuk kitapları geliştirme projelerinde çalışır.</p>
+            <br>
+        
+            <h3>Blockchain Geliştirici ve Mimar - Cuberium/Siber Vatan - Blockchain & AI Ekibi</h3>
+            <p>Web 3.0 teknolojileri, blockchain entegrasyonları ve IPFS mimarisi üzerinde çalışmalar yapar. Siber Vatan kapsamında eğitimler veren yenilikçi bir ekip.</p>
+            <br>
+        
+            <h3>Siber Güvenlik Araştırmacısı - Siber Vatan - Siber Güvenlik Topluluğu</h3>
+            <p>CTF (Capture The Flag) yarışmalarında başarılı olarak Siber Vatan'da eğitim hakkı kazandı. Beyaz Şapkalı Hacker eğitimi üzerine araştırmalar yapmaktadır.</p>
+            <br>
+        
+            <h3>Kurucu, Frontend Geliştirici - Anticverse</h3>
+            <p>İnsan faydacılığını önceleyen ve mikro kültürel anlamda zihin oluşumunu teşvik eden bir laboratuvardır.</p>
+            <br>
+        </section>
+        
+
+        <section class="flex flex-col gap-3">
+            <h2>Eğitim</h2>
+            <h3>Üniversite</h3>
+            <p>
+                Kütahya Dumlupınar Üniversitesi, Bilgisayar Mühendisliği - 2021 / 2028
+                <br>
+                Anadolu Üniversitesi, Yönetim Bilişim Sistemleri Mühendisliği - 2023 / 2026
+            </p>
+        </section>
+
+        <section class="flex flex-col gap-3">
+            <h2>Projeler</h2>
+
+            <h3>Story PC Game - Little Prince | Yakında!</h3>
+            <p>Bir indie oyunu olarak, Unreal Engine 5.3 üzerinde C++ dilini ve blueprint sistemlerini kullanarak "Küçük Prens" hikayesini konu alan bir hikaye oyunu geliştirme çalışması.</p>
+            <br>
+        
+            <h3>RPG Hard-core Adventure Sci-Fi PC Game - Corpus Orphicum | Yakında!</h3>
+            <p>Bir indie oyun olarak, Unreal Engine 5.2 üzerinde C++ dilini ve blueprint sistemlerini kullanarak bir macera oyunu geliştirme çalışması. Senaryo, Orta Çağ'da bir uzaylı saldırısını ve teoloji ile felsefeyi içeriyor.</p>
+            <br>
+        
+            <h3>blocker.lab | Yakında!</h3>
+            <p>Web 3.0 ve Blockchain Geliştiricisi olmaya yönelik çalışan kişiler için ideal-arche geliştirme laboratuvarı. Laboratuvar, örnek CTF'ler ve dapp geliştirme prototipleri sunmaktadır.</p>
+            <br>
+        
+            <h3>adastratr.com | 12.2023 - 03.2024</h3>
+            <p>Ad Astra'nın kurumsal web sitesi için tasarım ve geliştirme çalışmaları. CSS, HTML ve JavaScript kullanıldı.</p>
+            <br>
+        
+            <h3>kaunostravel.com | 02.2023 - 05.2024</h3>
+            <p>Kaunos Travel şirketinin kurumsal web sitesi ve tüm departman operasyonlarını sorunsuz bir şekilde yönetmek için bir web uygulaması geliştirme ve tasarlama çalışmaları.</p>
+            <br>
+        
+            <h3>Siber Vatan Bootcamp | Blockchain Mimarisi | 19.07.2022 - 29.07.2022</h3>
+            <p>Siber Vatan ve birçok ajans tarafından organize edilen bootcamp'e katılım hakkı. Bu süreçte, blockchain ve yapay zeka alanlarını kapsayan Cuberium ekibi kuruldu.</p>
+            <br>
+        
+            <h3>Meta Ancient City (VR/AR) | 05.2022 - 08.2022</h3>
+            <p>TEKNOFEST temelinde, Aizanoi Antik Kenti'ni sanal ortama taşıyan bir proje. Proje Türkiye genelinde finallere kalıp, 80 takım arasında 16. sırada yer aldı.</p>
+            <br>
+        
+            <h3>Cyber Security Startup Weekend | Blockchain Yazılım Mimarisi | 14.05.2022 - 15.05.2022</h3>
+            <p>Wheeled Autonomous Vehicles projesi ile Siber Vatan ve Batı Karadeniz Kalkınma Ajansı tarafından düzenlenen start-up yarışmasına katılım hakkı.</p>
+            <br>
+        
+            <h3>OTAB (Dağıtık Defter Kimlikleri) | 05.2022 - 05.2023</h3>
+            <p>Wheeled Autonomous Vehicles projesi, Startup Weekend, Siber Vatan ve Batı Karadeniz Kalkınma Ajansı tarafından düzenlenen yarışmaya katılım hakkı.</p>
+            <br>
+        
+            <h3>Fizy HaCXathon | Blockchain Yazılım Mimarisi | Takım Lideri | 14.05.2022 - 15.05.2022</h3>
+            <p>Fizy müzik uygulamasını metaverse'e entegre etme üzerine fikir yarışmasında final 8'e kalındı.</p>
+            <br>
+        
+            <h3>BİLMÖK | Üniversite Temsilcisi | 13.05.2022 - 15.05.2022</h3>
+            <p>Türkiye'nin en kapsamlı bilgisayar mühendisliği kongresine katılım.</p>
+            <br>
+        </section>
+
+        <section class="flex flex-col gap-3">
+            <h2>Sertifikalar ve Seminerler</h2>
+        
+            <h3>Sertifikalar</h3>
+            <p>10.2023 | 20 Saat - CS50'nin Oyun Geliştirme Tanıtımı - Harvard Üniversitesi</p>
+            <p>07.2022 | 22 Saat - Blockchainler ve Kripto Paralar - BTK Akademi</p>
+            <p>05.2022 | 30 Saat - Beyaz Şapkalı Hacker Kursu Katılım Sertifikası - Siber Vatan & BG-TEK</p>
+            <p>04.2022 | 50 Saat - Beyaz Şapkalı Hacker Kursu Katılım Sertifikası - Siber Vatan & Cyrops</p>
+            <p>03.2022 | 1 Saat - Proje Yönetimi - BTK Akademi</p>
+            <p>03.2022 | 3 Saat - Makine Öğrenimi Onramp - MATLAB</p>
+            <p>03.2022 | 3 Saat - Matlab Onramp - MATLAB</p>
+            <p>02.2022 | 12 Saat - Unity 101'den 401'e - Turkcell Future Writers</p>
+            <p>02.2022 | 4 Saat - Unity ile Dijital Oyun Geliştirmeye Giriş - BTK Akademi</p>
+            <p>04.2023 | 5 Gün - WinterCamp Oyun Geliştirme - Bilişim Vadisi</p>
+            <p>09.2022 | 10 Gün - SummerCamp Oyun Geliştirme - Bilişim Vadisi</p>
+            <p>07.2022 | 12 Gün - SummerCamp Blockchain Geliştirme - Siber Vatan</p>
+            <p>06.2022 | 3 Saat - Penetrasyon Testine Giriş - ODTÜ</p>
+            <p>06.2022 | 5 Saat - Siber Güvenliğe Giriş - CISCO</p>
+            <p>05.2022 | 2 Saat - Temel Ağ Teknolojileri - Turkcell Future Writers</p>
+            <p>05.2022 | 20 Saat - Siber Güvenliğe Giriş - Turkcell Future Writers</p>
+            <p>05.2022 | 6 Saat - Java 101'den 301'e - Turkcell Future Writers</p>
+            <br>
+            <h3>Seminerler</h3>
+            <p>Anticverse - İnegöl Kongresi | Konuşmacı ve Organizatör | 02.04.2023 - 03.04.2023</p>
+            <p>Anticverse Bootcamp | Mentor | 11.08.2023 - 13.08.2023</p>
+            
+        </section>
+        
+        
+        <section class="flex flex-col gap-3">
+            <h3>Yetenekler</h3>
+            <ul class="skills-list-new">
+                <li><span>C#</span></li>
+        <li><span>Unity Engine</span></li>
+        <li><span>Yazılım Geliştirme</span></li>
+        <li><span>Pazarlama</span></li>
+        <li><span>İngilizce B1</span></li>
+        <li><span>SwiftUI</span></li>
+        <li><span>Python</span></li>
+        <li><span>.NET Temelleri</span></li>
+        <li><span>React Native</span></li>
+        <li><span>C# Temelleri (Masaüstü)</span></li>
+        <li><span>Electron Temelleri</span></li>
+        <li><span>HTML, CSS</span></li>
+        <li><span>JavaScript, TypeScript</span></li>
+        <li><span>Node.js, Next.js</span></li>
+        <li><span>Barba.js, CDN.js</span></li>
+        <li><span>GSAP, Three.js</span></li>
+        <li><span>MongoDB, PHP, SQL</span></li>
+        <li><span>Rhizomatic Network (Web 3.0)</span></li>
+        <li><span>Solidity Temelleri</span></li>
+        <li><span>EVM & Avalanche Mimarisi</span></li>
+        <li><span>Hyperledger Fabric Temelleri</span></li>
+        <li><span>Web3.js, ethers.js</span></li>
+        <li><span>OpenZeppelin, Truffle</span></li>
+        <li><span>Tokenizasyon (ERC-20, ERC-721, ERC-1155)</span></li>
+        <li><span>Materyal Yönetimi</span></li>
+        <li><span>Blueprint Çocuk Kodlama</span></li>
+        <li><span>C# (Unity için)</span></li>
+        <li><span>Blender (Modelleme ve Temeller)</span></li>
+        <li><span>Illustrator/Figma (2D Tasarımlar)</span></li>
+        <li><span>PCG AI (Seviye Tasarımı)</span></li>
+        <li><span>EQS AI (Blueprint)</span></li>
+        <li><span>Davranış Ağaçları AI Yönetimi</span></li>
+        <li><span>Sıralama/Animator Yönetimi</span></li>
+            </ul>
+        </section>
+
+        <footer class="flex flex-col gap-3">
+            <h3>İletişim</h3>
+            <ul class="contact-info">
+                <li>
+                    <span>Email </span><a href="mailto:emirhan@adastratra.com">hasen@adastratra.com</a>
+                </li>
+                <li>
+                    <span>Medium </span><a href="https://www.medium.com/@emirhangungormez" target="_blank">@emirhangungormez</a>
+                </li>
+                <li>
+                    <span>LinkedIn </span><a href="https://www.linkedin.com/in/emirhangungormez" target="_blank">emirhangungormez</a>
+                </li>
+                <li>
+                    <span>GitHub </span><a href="https://github.com/emirhangungormez" target="_blank">emirhangungormez</a>
+                </li>
+                <li>
+                    <span>Twitter </span><a href="https://x.com/emirhangngrmz" target="_blank">@emirhangngrmz</a>
+                </li>
+            </ul>
+        </footer>
+
+        <section class="flex flex-col gap-3">
+            <div class="logo-text-container">
+                <a href="https://gitub/emirhangungormez.com/portfolio-site" rel="noopener noreferrer">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 256 256">
+                        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                            <g transform="scale(8.53333,8.53333)">
+                                <path d="M15,3c-6.627,0 -12,5.373 -12,12c0,5.623 3.872,10.328 9.092,11.63c-0.056,-0.162 -0.092,-0.35 -0.092,-0.583v-2.051c-0.487,0 -1.303,0 -1.508,0c-0.821,0 -1.551,-0.353 -1.905,-1.009c-0.393,-0.729 -0.461,-1.844 -1.435,-2.526c-0.289,-0.227 -0.069,-0.486 0.264,-0.451c0.615,0.174 1.125,0.596 1.605,1.222c0.478,0.627 0.703,0.769 1.596,0.769c0.433,0 1.081,-0.025 1.691,-0.121c0.328,-0.833 0.895,-1.6 1.588,-1.962c-3.996,-0.411 -5.903,-2.399 -5.903,-5.098c0,-1.162 0.495,-2.286 1.336,-3.233c-0.276,-0.94 -0.623,-2.857 0.106,-3.587c1.798,0 2.885,1.166 3.146,1.481c0.896,-0.307 1.88,-0.481 2.914,-0.481c1.036,0 2.024,0.174 2.922,0.483c0.258,-0.313 1.346,-1.483 3.148,-1.483c0.732,0.731 0.381,2.656 0.102,3.594c0.836,0.945 1.328,2.066 1.328,3.226c0,2.697 -1.904,4.684 -5.894,5.097c1.098,0.573 1.899,2.183 1.899,3.396v2.734c0,0.104 -0.023,0.179 -0.035,0.268c4.676,-1.639 8.035,-6.079 8.035,-11.315c0,-6.627 -5.373,-12 -12,-12z"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <p class="site-code"><a href="https://gitub/emirhangungormez.com/portfolio-site" target="_blank" >Site ham kodu.</a></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+
+</html>
