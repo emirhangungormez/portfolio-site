@@ -1,0 +1,37 @@
+$('.slider-main').slick({  
+  speed: 1500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay:true,
+  autoplaySpeed:3000,
+  centerMode: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  variableWidth: false,
+  infinite: true,
+  arrows: true,
+  dots: false,
+  pauseOnFocus: true,
+  pauseOnHover: true
+});
+
+$(".darkModeIcon").click(function() { 
+  $('body').removeClass('darkMode').addClass('lightMode');
+});
+$(".lightModeIcon").click(function() { 
+  $('body').removeClass('lightMode').addClass('darkMode');
+});
+$(function() {
+
+  var hour = (new Date).getHours();
+  if (hour >= 17 || hour<=7) {
+    $('body').removeClass('lightMode').addClass('darkMode');
+  } else {
+    $('body').removeClass('darkMode').addClass('lightMode');
+  }
+  console.log(hour);
+  
+  });
+  
+
+	
